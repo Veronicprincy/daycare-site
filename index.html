@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Joe Baby Care Center</title>
+  <title>Joe Baby Care Center Registration</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -29,28 +29,6 @@
       font-weight: 600;
       margin-bottom: 2rem;
     }
-    .gallery {
-      width: 90%;
-      max-width: 800px;
-      margin: 2rem 0;
-      text-align: center;
-    }
-    .gallery h2 {
-      font-size: 2rem;
-      margin-bottom: 1rem;
-    }
-    .gallery-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 1rem;
-    }
-    .gallery img {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(255, 0, 150, 0.3);
-    }
     .container {
       background: #ff3399;
       padding: 2rem;
@@ -58,14 +36,13 @@
       width: 90%;
       max-width: 500px;
       box-shadow: 0 8px 15px rgba(255, 0, 150, 0.3);
-      margin-bottom: 2rem;
     }
     label {
       display: block;
       margin-top: 1rem;
       font-weight: 600;
     }
-    input, select, textarea {
+    input, select {
       width: 100%;
       padding: 0.6rem;
       font-size: 1rem;
@@ -107,20 +84,7 @@
     <p class="subheading">Safe and Comfortable, the Best Childcare for Your Little One!</p>
   </header>
 
-  <div class="gallery">
-    <h2>Our Daycare Photos</h2>
-    <div class="gallery-grid">
-      <img src="https://picsum.photos/300/200?random=1" alt="Daycare Play Area" />
-      <img src="https://picsum.photos/300/200?random=2" alt="Children Playing" />
-      <img src="https://picsum.photos/300/200?random=3" alt="Classroom Setup" />
-      <img src="https://picsum.photos/300/200?random=4" alt="Outdoor Activities" />
-      <img src="https://picsum.photos/300/200?random=5" alt="Nap Time" />
-      <img src="https://picsum.photos/300/200?random=6" alt="Art and Crafts" />
-    </div>
-  </div>
-
   <div class="container">
-    <h2>Register Your Child</h2>
     <form id="registrationForm">
       <label for="parentName">Parent/Guardian Name:</label>
       <input type="text" id="parentName" name="parentName" required />
